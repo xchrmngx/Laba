@@ -1,0 +1,40 @@
+﻿<Window x:Class="Laba.laborant.TakeBiomaterial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba.laborant"
+        mc:Ignorable="d"
+        Title="TakeBiomaterial" Height="450" Width="800" Icon="/img/logo.ico">
+    <Grid>
+        <Button x:Name="button1" Content="Выйти" HorizontalAlignment="Left" Margin="660,374,0,0" VerticalAlignment="Top" Width="122" Click="button1_Click" Height="35" Background="#FF76E383"/>
+        <Button x:Name="button2" Content="Вернутся назад" HorizontalAlignment="Left" Margin="10,374,0,0" VerticalAlignment="Top" Width="122" Click="button2_Click" Height="35" Background="#FF76E383"/>
+        <Label Name="Timer" Content="Label" HorizontalAlignment="Center" Margin="0,391,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <TextBox Name="Code" HorizontalAlignment="Left" Margin="59,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="189" FontSize="15"/>
+        <Label Content="Штрих-код" HorizontalAlignment="Left" Margin="108,37,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <ComboBox Name="listPacients" HorizontalAlignment="Left" Margin="528,70,0,0" VerticalAlignment="Top" Width="198" FontSize="15"/>
+        <Label Content="Пациент" HorizontalAlignment="Left" Margin="584,37,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb1" Content="Билирубин общий" HorizontalAlignment="Left" Margin="66,169,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb2" Content="СПИД" HorizontalAlignment="Left" Margin="67,193,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb3" Content="Креатинин" HorizontalAlignment="Left" Margin="67,217,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb4" Content="Волчаночный антикоагулянт" HorizontalAlignment="Left" Margin="67,241,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb5" Content="Амилаза" HorizontalAlignment="Left" Margin="67,265,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb6" Content="Глюкоза" HorizontalAlignment="Left" Margin="310,169,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb7" Content="Общий белок" HorizontalAlignment="Left" Margin="310,193,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb8" Content="Кальций общий" HorizontalAlignment="Left" Margin="310,217,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb9" Content="Гепатит В" HorizontalAlignment="Left" Margin="310,241,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb10" Content="Гепатит С" HorizontalAlignment="Left" Margin="310,265,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb11" Content="Альбумин" HorizontalAlignment="Left" Margin="476,169,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb12" Content="ВИЧ" HorizontalAlignment="Left" Margin="476,193,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb13" Content="TSH" HorizontalAlignment="Left" Margin="476,217,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb14" Content="Сифилис RPR" HorizontalAlignment="Left" Margin="476,241,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb15" Content="АТ и АГ к ВИЧ 1/2" HorizontalAlignment="Left" Margin="476,265,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb16" Content="Железо" HorizontalAlignment="Left" Margin="637,169,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <CheckBox Name="cb17" Content="Ковид IgM" HorizontalAlignment="Left" Margin="637,193,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Button x:Name="button3" Content="+" HorizontalAlignment="Left" Margin="731,72,0,0" VerticalAlignment="Top" Width="24" Click="button3_Click" Height="22" Background="#FF76E383"/>
+        <Button x:Name="button4" Content="Добавить заказ" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="122" Click="button4_Click" Height="35" Background="#FF76E383"/>
+        <Button x:Name="button5" Content="Добавить биоматериал" HorizontalAlignment="Left" Margin="76,115,0,0" VerticalAlignment="Top" Width="154" Click="button5_Click" Height="25" Background="#FF76E383"/>
+        <Button x:Name="button6" Content="Сделать штрих-код" HorizontalAlignment="Left" Margin="275,70,0,0" VerticalAlignment="Top" Width="147" Click="button6_Click" Height="26" Background="#FF76E383"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="692,241,0,0" VerticalAlignment="Top" Width="100" Source="/img/logo.png"/>
+    </Grid>
+</Window>
